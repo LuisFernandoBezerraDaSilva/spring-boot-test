@@ -4,7 +4,7 @@ import org.springframework.validation.BindingResult;
 
 public class CampoObrigatorioException extends Exception {
 	private static final long serialVersionUID = 1L;
-	private static BindingResult bindingResult; 
+	private BindingResult bindingResult; 
 	
 	public CampoObrigatorioException() {
 		super();
