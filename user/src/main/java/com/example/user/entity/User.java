@@ -13,6 +13,10 @@ public class User {
     private String name;
     private String email;
     private int age;
+    
+    public Long getId() {
+		return id;
+	}
 
     // Getters e setters
 }
